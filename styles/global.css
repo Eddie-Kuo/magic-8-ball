@@ -40,4 +40,12 @@ footer {
     height: 100px;
     width: 500px;
     text-align: center;
+    padding: 15px;
+    margin: 20px;
+}
+
+.output-saying {
+    text-align: center;
+    width: 500px;
+    
 }

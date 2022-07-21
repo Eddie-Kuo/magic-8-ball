@@ -1,7 +1,7 @@
 :root {
     --background: rgb(224, 234, 247);
-    --header-background: white;
-    --footer-background: rgb(243, 242, 242);
+    /*--header-background: white;
+    --footer-background: rgb(243, 242, 242);*/
 }
 
 body {
@@ -22,6 +22,7 @@ header {
 
 main {
     padding: 20px;
+    
 }
 
 footer {
@@ -32,4 +33,11 @@ footer {
     display: flex;
     justify-content: flex-end;
     background-color: var(--footer-background);
+}
+
+#input-section, #output-section {
+    background-color: lightblue;
+    height: 100px;
+    width: 500px;
+    text-align: center;
 }

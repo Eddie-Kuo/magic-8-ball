@@ -4,7 +4,6 @@ const lunch = document.getElementById('lunch');
 const dinner = document.getElementById('dinner');
 const answer = document.getElementById('answer');
 
-console.log(breakfast, lunch, dinner, answer);
 // let state
 
 const breakfastItems = ['Pancakes', 'Waffles', 'French Toast', 'Omelette', 'Skillet Hash'];
@@ -30,11 +29,17 @@ dinner.addEventListener('click', () => {
     answer.textContent = lastThing;
 });
 
-function randomFoodItem(array) {
-    const randomnumber = Math.floor(Math.random() * array.length);
-    return array[randomnumber];
-}
+//function randomFoodItem(array) {
+    //const randomNumber = Math.floor(Math.random() * array.length);
+    //return array[randomNumber];
+//}
+
+const randomFoodItem = (array) => {
+    const randomNumber = Math.floor(Math.random() * array.length);
+    return array[randomNumber];
+};
 // blueprint for future arrays 
+// In this case array is a parameter and not an argument - an argument hold a value 
 
   // get user input
 
